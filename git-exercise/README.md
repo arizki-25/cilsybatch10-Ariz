@@ -1,4 +1,4 @@
-# Learn git with fast Progress
+Learn git with fast Progress
 
 ## init git with existing project
 - create initial branch name
