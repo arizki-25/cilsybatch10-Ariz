@@ -1,0 +1,10 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,Asia Pacific (Singapore),,Amazon EC2,0,18,216.00,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t3a.micro)"
+My Estimate,Asia Pacific (Singapore),,Amazon RDS for MySQL,0,431.67999999999995,5180.16,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Quantity (1), Instance type (db.m1.large), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,Asia Pacific (Singapore),,Amazon Virtual Private Cloud (VPC),0,143.24,1718.88,USD,"DT Inbound: Internet (1 TB per month), DT Outbound: Internet (1 TB per month), DT Intra-Region: (1 TB per month), Data transfer cost (143.24)"
+My Estimate,Asia Pacific (Singapore),,Classic Load Balancer,0,20.450000000000003,245.40,USD,"Number of Classic Load Balancers (1), Processed bytes per CLB (1 GB per month)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
