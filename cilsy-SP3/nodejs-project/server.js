@@ -1,10 +1,14 @@
-const express = require('express')
-const app = express()
-const port = 3000
+var express = require('express'),
+    app = express(),
+    port = process.env.PORT || 3000,
+    bodyParser = require('body-parser'),
+    controller = require('./controller');
 
-app.get("/", (req, res) => {
- res.json(["Tony","Lisa","Michael","Ginger","Food"]);
-});
-app.listen(port, () => {
- console.log('Example app listening at http://localhost:${port}')
-})
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+var routes = require('./routes');
+routes(app);
+
+app.listen(port);
+console.log('Learn Node JS With Kiddy, RESTful API server started on: ' + port);
