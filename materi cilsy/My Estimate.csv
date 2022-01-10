@@ -1,0 +1,7 @@
+"Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary"
+"My Estimate,Asia Pacific (Singapore),,Amazon EC2,0,159.53,1914.36,USD,""Operating system (Linux), Quantity (1), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t4g.2xlarge)"""
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
